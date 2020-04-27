@@ -1,0 +1,17 @@
+{
+  "title": "Ameren Mobile App Styleguide",
+
+  "source": "src",
+
+  "destination": "styleguide/",
+
+  "builder": "node_modules/michelangelo/kss_styleguide/custom-template/",
+
+  "css": [
+    "../src/styles.css"
+  ],
+
+  "js": [
+    "./src/bundle.js"
+  ]
+}

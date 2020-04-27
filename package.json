@@ -1,0 +1,21 @@
+{
+  "name": "amrn-mobap-ds",
+  "version": "1.0.0",
+  "description": "Ameren Mobile App Styleguide",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass-watch": "node-sass --watch src/sass -o src/",
+    "sass": "node-sass src/sass -o src/ --output-style compressed",
+    "open": "open ./styleguide/index.html",
+    "build": "node-sass src/sass -o src/ --output-style compressed && kss --config kss-config.json",
+    "start": " npm run sass && kss --config kss-config.json && open ./styleguide/index.html"
+  },
+  "author": "Mike Scholze",
+  "license": "ISC",
+  "devDependencies": {
+    "kss": "^3.0.1",
+    "michelangelo": "^0.8.0",
+    "node-sass": "^4.14.0"
+  }
+}
