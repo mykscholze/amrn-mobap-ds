@@ -8,7 +8,7 @@
     "sass-watch": "node-sass --watch src/sass -o src/",
     "sass": "node-sass src/sass -o src/ --output-style compressed",
     "open": "open ./styleguide/index.html",
-    "build": "node-sass src/sass -o src/ --output-style compressed && kss --config kss-config.json",
+    "build": "node-sass src/sass -o src/ --output-style compressed && kss --config kss-config.json styleguide",
     "start": " npm run sass && kss --config kss-config.json && open ./styleguide/index.html"
   },
   "author": "Mike Scholze",
