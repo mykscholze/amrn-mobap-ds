@@ -20,4 +20,57 @@ Styleguide 2.1.0
     display: flex;
     flex-direction: column;
     position: relative;
+
+    .form-header {
+      background: rgb(255,255,255);
+      background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(237,237,237,1) 100%);
+      border-radius: 10px 10px 0 0;
+      font-family: 'roboto-condensed', 'sans-serif';
+      font-weight: bold;
+      height: 3.25rem;
+      padding: 0 1rem;
+      text-transform: uppercase;
+
+      h1 {
+        margin:0;
+        padding:0;
+        top: 50%;
+        position: relative;
+        transform: translateY(-50%);
+      }
+    }
+
+    .form-container__input-wrapper {
+      height: 3.25rem;
+      position: relative;
+
+      label {
+        position: relative;
+        z-index: 20;
+      }
+
+      input {
+        border: none;
+        box-sizing: border-box;
+        height: 3.25rem;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 10;
+      }
+
+}
+}
+button.login-container__button {
+  background: rgb(23,94,38);
+  background: linear-gradient(180deg, rgba(23,94,38,1) 0%, rgba(33,135,55,1) 30%);
+  border: none;
+  border-radius: 0 0 10px 10px;
+  color: white;
+  font-family: 'roboto-condensed', 'sans-serif';
+  font-size: 1.35rem;
+  font-weight: bold;
+  height: 3.25rem;
+  width: 100%;
 }
