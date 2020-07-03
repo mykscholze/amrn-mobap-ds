@@ -88,6 +88,14 @@ Styleguide 1.2
 body {
   font-family: roboto, roboto-condensed, roboto-light;
 }
-p {
-  font-family: roboto-light, roboto;
+p.roboto-light {
+  font-family: roboto-light;
+}
+
+p.roboto{
+  font-family: roboto;
+}
+
+p.roboto-condensed{
+  font-family: roboto-condensed;
 }
