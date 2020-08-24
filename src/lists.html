@@ -1,30 +1,72 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>JS Bin</title>
-    </head>
-    <body>
-        <header>header area</header>
-        <nav>
-            <ul>
-                <li>Link 1</li>
-                <li>Link 2</li>
-                <li>Link 3</li>
-                <li>Link 4</li>
-                <li>Link 5</li>
-                <li>Link 6</li>
-                <li>Link 7</li>
-                <li>Link 8</li>
-                <li>Link 9</li>
-                <li>Link 10</li>
-                <li>Link 11</li>
-                <li>Link 13</li>
-                <li>Link 13</li>
+<div class="mobile-component-container"><!-- This container is not meant for production, only this style guide -->
 
-            </ul>
-        </nav>
 
-        <footer>footer area</footer>
-    </body>
-</html>
+
+  <div class="components-container">
+
+    <div class="home-container">
+
+      <div class="login-container">
+
+        <div class="login-container__form" id="login-component">
+
+            <div class="form-container">
+
+            <div class="form-container__inner-container" id="form">
+
+              <div class="form-header">
+               <h1>Login</h1>
+              </div>
+
+              <div class="form-container__input-wrapper">
+
+                <label class="form-container__label" id="label-username-input" for="username-input">Username</label>
+                <input class="form-container__input" type="text" id="username-input">
+
+              </div> <!-- form-container__input-wrapper -->
+
+              <div class="form-container__input-wrapper">
+
+                <nav>
+                    <ul>
+                        <li>Link 1</li>
+                        <li>Link 2</li>
+                        <li>Link 3</li>
+                        <li>Link 4</li>
+                        <li>Link 5</li>
+                        <li>Link 6</li>
+                        <li>Link 7</li>
+                        <li>Link 8</li>
+                        <li>Link 9</li>
+                        <li>Link 10</li>
+                        <li>Link 11</li>
+                        <li>Link 13</li>
+                        <li>Link 13</li>
+
+                    </ul>
+                </nav>
+
+                <label class="form-container__label" id="label-login-password-input" for="login-password-input">Password</label>
+                <input class="form-container__input" type="password" id="login-password-input">
+
+              </div> <!-- form-container__input-wrapper -->
+
+            </div> <!-- form-container__inner-container -->
+
+          </div> <!-- form-container -->
+
+          <button class="login-container__button">LOGIN</button>
+
+        </div> <!-- login-container__form -->
+
+      </div> <!-- login-container -->
+
+    </div> <!-- home-container -->
+
+  </div> <!-- components-container -->
+
+
+
+
+</div> <!-- mobile-component-container -->
