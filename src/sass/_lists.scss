@@ -8,5 +8,36 @@ Markup: lists.html
 Styleguide 2.5.0
 */
 
-nav ul{height:200px; width:18%;}
-nav ul{overflow:hidden; overflow-y:scroll;}
+.menu-header {
+    padding: 0.625rem 0.9375rem;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(var(--ion-color-primary-contrast), var(--ion-color-primary-contrast), var(--ion-color-light));
+    height: var(--button-primary-height);
+    .title {
+        font-family: var(--RobotoBold);
+        text-align: left;
+        color: var(--ion-color-dark-shade);
+    }
+}
+
+.menu-item {
+    --detail-icon-color: black;
+    --detail-icon-opacity: 1;
+    padding: 0.625rem;
+    border-bottom: 1px solid #C8C7CB;
+    --inner-border-width: 0;
+    --padding-start: 0;
+    .item-label {
+        font-family: var(--RobotoBold);
+        color: var(--ion-color-dark-shade);
+    }
+    .icon-paperless {
+        height: 3rem;
+        width: 3rem;
+        .icon-path {
+            fill: var(--ion-color-secondary-shade);
+            stroke: white;
+        }
+    }
+}
