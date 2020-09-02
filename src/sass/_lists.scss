@@ -8,36 +8,23 @@ Markup: lists.html
 Styleguide 2.5.0
 */
 
-.menu-header {
-    padding: 0.625rem 0.9375rem;
-    display: flex;
-    align-items: center;
-    background: linear-gradient(var(--ion-color-primary-contrast), var(--ion-color-primary-contrast), var(--ion-color-light));
-    height: var(--button-primary-height);
-    .title {
-        font-family: var(--RobotoBold);
-        text-align: left;
-        color: var(--ion-color-dark-shade);
-    }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
 }
 
-.menu-item {
-    --detail-icon-color: black;
-    --detail-icon-opacity: 1;
-    padding: 0.625rem;
-    border-bottom: 1px solid #C8C7CB;
-    --inner-border-width: 0;
-    --padding-start: 0;
-    .item-label {
-        font-family: var(--RobotoBold);
-        color: var(--ion-color-dark-shade);
-    }
-    .icon-paperless {
-        height: 3rem;
-        width: 3rem;
-        .icon-path {
-            fill: var(--ion-color-secondary-shade);
-            stroke: white;
-        }
-    }
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #555;
+  color: white;
 }
