@@ -7,3 +7,16 @@ Markup: buttons.html
 
 Styleguide 2.3.0
 */
+
+button.btn-group {
+  background: rgb(23,94,38);
+  background: linear-gradient(180deg, rgba(23,94,38,1) 0%, rgba(33,135,55,1) 30%);
+  border: none;
+  border-radius: 0 0 10px 10px;
+  color: white;
+  font-family: 'roboto-condensed', 'sans-serif';
+  font-size: 1.35rem;
+  font-weight: bold;
+  height: 3.25rem;
+  width: 100%;
+}
