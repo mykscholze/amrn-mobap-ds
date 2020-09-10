@@ -8,15 +8,39 @@ Markup: buttons.html
 Styleguide 2.3.0
 */
 
-button.btn-group {
+button.btn-primary {
   background: rgb(23,94,38);
   background: linear-gradient(180deg, rgba(23,94,38,1) 0%, rgba(33,135,55,1) 30%);
   border: none;
-  border-radius: 0 0 10px 10px;
+  border-radius: 10px 0 0 10px;
   color: white;
   font-family: 'roboto-condensed', 'sans-serif';
   font-size: 1.35rem;
   font-weight: bold;
   height: 3.25rem;
-  width: 100%;
+  width: 33%;
+}
+button.btn-default {
+  background: white;
+  background: linear-gradient(180deg, white 0%, white 30%);
+  border: $ameren-blue;
+  border-radius: 0 0 10px 10px;
+  color: black;
+  font-family: 'roboto-condensed', 'sans-serif';
+  font-size: 1.35rem;
+  font-weight: bold;
+  height: 3.25rem;
+  width: 33%;
+}
+button.btn-blocked {
+  background: $ameren-gray-10;
+  background: linear-gradient(180deg, $ameren-gray-10 0%, $ameren-gray-10 30%);
+  border: none;
+  border-radius: 0 10px 10px 0;
+  color: black;
+  font-family: 'roboto-condensed', 'sans-serif';
+  font-size: 1.35rem;
+  font-weight: bold;
+  height: 3.25rem;
+  width: 33%;
 }
