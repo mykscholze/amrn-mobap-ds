@@ -21,10 +21,11 @@ button.btn-primary {
   width: 33%;
 }
 button.btn-default {
-  background: white;
-  background: linear-gradient(180deg, white 0%, white 30%);
+  background: $ameren-gray-05;
+  background: linear-gradient(180deg, $ameren-gray-05 0%, $ameren-gray-05 30%);
   border: $ameren-blue;
-  border-radius: 0 0 10px 10px;
+  border-style: solid;
+  border-radius: 0 0 0 0;
   color: black;
   font-family: 'roboto-condensed', 'sans-serif';
   font-size: 1.35rem;
@@ -36,6 +37,7 @@ button.btn-blocked {
   background: $ameren-gray-10;
   background: linear-gradient(180deg, $ameren-gray-10 0%, $ameren-gray-10 30%);
   border: none;
+  border-style: solid;
   border-radius: 0 10px 10px 0;
   color: black;
   font-family: 'roboto-condensed', 'sans-serif';
