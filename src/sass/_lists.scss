@@ -16,7 +16,7 @@ ul {
   background-color: #f1f1f1;
 }
 
-li a {
+li list-ex {
   display: block;
   color: #000;
   padding: 8px 16px;
@@ -24,7 +24,7 @@ li a {
 }
 
 /* Change the link color on hover */
-li a:active {
+li list-ex:active {
   background-color: #555;
   color: white;
 }
