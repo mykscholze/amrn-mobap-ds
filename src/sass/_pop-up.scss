@@ -46,3 +46,16 @@ Styleguide 2.4.0
   text-decoration: none;
   cursor: pointer;
 }
+
+#myBtn {
+  background: rgb(23,94,38);
+  background: linear-gradient(180deg, rgba(23,94,38,1) 0%, rgba(33,135,55,1) 30%);
+  border: none;
+  border-radius: 10px 10px 10px 10px;
+  color: white;
+  font-family: 'roboto-condensed', 'sans-serif';
+  font-size: 1.35rem;
+  font-weight: bold;
+  height: 3.25rem;
+  width: 33%;
+}
